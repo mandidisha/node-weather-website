@@ -1,4 +1,4 @@
-console.log('client side javascrip side is loaded')
+//console.log('client side javascrip side is loaded')
 
 fetch('http://puzzle.mead.io/puzzle' ).then((response)=>{
     response.json().then((data)=>{
